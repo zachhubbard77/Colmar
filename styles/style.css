@@ -56,11 +56,12 @@ nav.desktop ul li {
 /* BANNER SECTION */
 
 .banner {
-    width: 100%;
+    width: 96%;
     display: flex;
-    background-color: #f3f3f3;
-    padding-top: 32px;
-    margin: 64px 24px 32px 24px;
+    background-color: aliceblue;
+    padding: 32px 2%;
+    margin-top: 64px;
+    
 }
 
 .banner_image {
@@ -78,7 +79,8 @@ nav.desktop ul li {
     padding: 0 24px;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    width: 40%;
 }
 
 .banner_content h1, .banner_content p, .banner_content button {
@@ -88,6 +90,7 @@ nav.desktop ul li {
 
 
 /* Look at iphone before moving on. Also check out the white spaces on the sides of banner. 
+See if I can rename my last commit from header to banner....??...   */
 
 
 
@@ -97,6 +100,52 @@ nav.desktop ul li {
 
 
 
+.main_content {
+    background-color: darkgray;
+    width: 96%;
+    display: flex;
+    padding: 32px 2%;
+}
 
+.main_image {
+    width: 58%;
+    
+    
+}
+
+.main_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main_panels {
+    width: 40%;
+    padding-left: 24px;
+    
+}
+
+.main_panel {
+    width: 100%;
+    display: flex;
+}
+
+.sub_image {
+    width: 35%;
+}
+
+.sub_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.panel_content {
+    width: 65%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
