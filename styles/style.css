@@ -122,7 +122,14 @@ nav.desktop ul li {
 .main_panel {
     width: 100%;
     display: flex;
+    padding: 16px 0;
 }
+
+.main_panel:nth-child(1) {
+    padding-top: 0;
+}
+
+
 
 .sub_image {
     width: 35%;
@@ -146,3 +153,52 @@ nav.desktop ul li {
 
 
 
+.courses {
+    width: 100%;
+    background-color: white;
+    
+}
+
+.courses h3 {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.courses .course_list {
+    padding: 0 72px 32px 72px;
+    
+    margin: 0 auto;
+}
+
+.courses .course_row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.courses .course_row .course_panel {
+    width: 32%;
+    background-color: lightgray;
+}
+
+.courses .course_row .course_panel:nth-child(2) {
+    margin: 0 2%;
+}
+
+.courses .course_row .course_panel .course_image {
+    width: 100%;
+}
+
+.courses .course_row .course_panel .course_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.courses .course_row .course_panel .course_content {
+    padding: 16px;
+}
+
+.courses .course_row .course_panel .course_content > * {
+    padding: 8px 0;
+}
