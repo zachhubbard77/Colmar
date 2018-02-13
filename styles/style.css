@@ -107,11 +107,23 @@ nav.desktop ul li {
     
 }
 
+.main_image .img_descrip {
+    padding-bottom: 24px;
+}
+
 .main_image img {
     width: 100%;
     height: auto;
     display: block;
 }
+
+.main_image h2 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+
+
 
 .main_panels {
     width: 40%;
@@ -202,3 +214,34 @@ nav.desktop ul li {
 .courses .course_row .course_panel .course_content > * {
     padding: 8px 0;
 }
+
+/* THESIS SECTION */
+
+.thesis h3 {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.thesis {
+    background-color: aliceblue;
+}
+
+.thesis h5 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    padding: 16px 24px 48px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES
