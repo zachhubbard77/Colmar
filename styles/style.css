@@ -411,18 +411,41 @@ footer a {
         display: block;
     }
     
+    .course_list_mobile ul {
+        padding-bottom: 32px;
+    }
+    
     .course_list_mobile li {
         padding: 24px 16px;
         margin-bottom: 8px;
-        background-color: antiquewhite
+        background-color: antiquewhite;
+        margin: 0 16px 8px 16px;
     }
     
+    .course_list_mobile li h4 {
+        padding-left: 16px;
+    }
     
     
     /* THESIS CONTENT */
     
     
+    .thesis .main_content {
+        padding: 0;
+        width: 100%;
+    }
     
+    .thesis .main_panels {
+        display: none;
+    }
+    
+    .thesis .main_image {
+        width: 100%;
+    }
+    
+    .thesis .main_image h5, .thesis .main_image p {
+        display: none;
+    }
     
     
 }
