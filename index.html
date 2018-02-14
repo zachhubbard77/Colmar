@@ -34,10 +34,10 @@
         <!-- Mobile Nav -->
         <nav class="mobile_header">
             <ul>
-                <li><img src="images/ic-logo.svg"></li>
-                <li><img src="images/ic-on-campus.svg"></li>
-                <li><img src="images/ic-online.svg"></li>
-                <li><img src="images/ic-login.svg"></li>
+                <li><a href="#"><img src="images/ic-logo.svg"></a></li>
+                <li><a href="#"><img src="images/ic-on-campus.svg"></a></li>
+                <li><a href="#"><img src="images/ic-online.svg"></a></li>
+                <li><a href="#"><img src="images/ic-login.svg"></a></li>
             </ul>
         </nav>
     
@@ -51,7 +51,7 @@
         </div>
         <div class="banner_content">
             <h1>Learn something new everyday</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="banner_detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <button class="btn">Start Here</button>
         </div>
     </div>
@@ -61,48 +61,53 @@
     
     
     <div class="main_content">
-        <div class="main_image">
-            <img src="images/information-main.jpg">
-            <h2>It doesn't hurt to keep practicing</h2>
-            <p class="img_descrip">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-            <p>Emanuel, Sr Strategist at Hiring.com</p>
-        </div>
-        
-        <div class="main_panels">
-           
-            <div class="main_panel">
-                <div class="sub_image">
-                    <img src="images/information-orientation.jpg">
+        <div class="main_top">
+                <div class="main_image">
+                    <img src="images/information-main.jpg">
+                    <h2>It doesn't hurt to keep practicing</h2>
+                    <p class="img_descrip">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                    <p>Emanuel, Sr Strategist at Hiring.com</p>
                 </div>
-                <div class="panel_content">
-                    <h4>Orientation Date</h4>
-                    <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
-                    <a href="#">Read more</a>
+
+                <div class="main_panels">
+
+                    <div class="main_panel">
+                        <div class="sub_image">
+                            <img class="img_desktop" src="images/information-orientation.jpg">
+                            <img class="img_mobile" src="images/information-orientation-mobile.jpg">
+                        </div>
+                        <div class="panel_content">
+                            <h4>Orientation Date</h4>
+                            <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="main_panel">
+                        <div class="sub_image">
+                            <img class="img_desktop" src="images/information-campus.jpg">
+                            <img class="img_mobile" src="images/information-campus-mobile.jpg">
+                        </div>
+                        <div class="panel_content">
+                            <h4>Our campus</h4>
+                            <p>Find which campus is close by you</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="main_panel">
+                        <div class="sub_image">
+                            <img class="img_desktop" src="images/information-guest-lecture.jpg">
+                            <img class="img_mobile" src="images/information-guest-lecture-mobile.jpg">
+                        </div>
+                        <div class="panel_content">
+                            <h4>Our guest lecture</h4>
+                            <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-            
-            <div class="main_panel">
-                <div class="sub_image">
-                    <img src="images/information-campus.jpg">
-                </div>
-                <div class="panel_content">
-                    <h4>Our campus</h4>
-                    <p>Find which campus is close by you</p>
-                    <a href="#">Read more</a>
-                </div>
-            </div>
-            
-            <div class="main_panel">
-                <div class="sub_image">
-                    <img src="images/information-guest-lecture.jpg">
-                </div>
-                <div class="panel_content">
-                    <h4>Our guest lecture</h4>
-                    <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
-                    <a href="#">Read more</a>
-                </div>
-            </div>
-        
         </div>
     </div>
    
@@ -182,7 +187,19 @@
                 </div>
             </div>
                
-        </div>  
+        </div> 
+            <!-- Mobile -->
+        <div class="course_list_mobile">
+            <ul>
+                <li><h4>Software Engineering</h4></li>
+                <li><h4>Computer Art</h4></li>
+                <li><h4>Design</h4></li>
+                <li><h4>Data</h4></li>
+                <li><h4>Business</h4></li>
+                <li><h4>Marketing</h4></li>
+            </ul>
+        </div>
+        
     </div>
     
     

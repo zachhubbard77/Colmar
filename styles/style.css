@@ -97,7 +97,7 @@ nav.desktop ul li {
 
 .banner_image {
     width: 60%;
-    //padding: 32px 24px;
+    
 }
 
 .banner img {
@@ -154,7 +154,7 @@ nav.desktop ul li {
 
 
 
-.main_content {
+.main_content .main_top, .thesis .main_content {
     background-color: #7286A0;
     width: 96%;
     display: flex;
@@ -213,6 +213,10 @@ nav.desktop ul li {
     display: block;
 }
 
+.sub_image .img_mobile {
+    display: none;
+}
+
 .panel_content {
     width: 65%;
     padding-left: 16px;
@@ -229,6 +233,10 @@ nav.desktop ul li {
     width: 100%;
     
     
+}
+
+.course_list_mobile {
+    display: none;
 }
 
 .courses h3 {
@@ -284,7 +292,7 @@ nav.desktop ul li {
 }
 
 .thesis {
-    
+    background-color: #7286A0;
 }
 
 .thesis h5 {
@@ -305,4 +313,116 @@ footer a {
     text-decoration: none;
 }
 
-/* MEDIA QUERIES
+/* MEDIA QUERIES */
+
+/* MOBILES */
+@media only screen and (max-width: 750px) {
+
+    
+    /* MOBILE HEADER SECTION */
+    .desktop_header {
+        display: none;
+    }
+
+    .mobile_header {
+        display: block; 
+        height: 64px;
+    }
+    
+    .mobile_header ul {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        align-items: center;
+    }
+    
+    /* MOBILE BANNER SECTION */
+    
+    .banner {
+        width: 100%;
+        display: block;
+        padding: 0;
+        
+    }
+    
+    .banner_image {
+        width: 100%;
+    }
+    
+    .banner_content {
+        width: 92%;
+        padding: 32px 16px;
+    }
+    
+    .banner_detail {
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+    
+    /* MOBILE MAIN CONTENT */
+    
+    .main_top .main_image {
+        display: none;
+    }
+    
+    .main_top .main_panels {
+        padding: 16px;
+            width: 92%;
+        
+    } 
+    
+    .sub_image .img_mobile {
+        display: block;
+    }
+    
+    .main_top .img_desktop {
+        display: none;
+    }
+    
+    .main_top .main_panel {
+        flex-direction: column;
+    }
+    
+    .main_top .sub_image {
+        width: 100%;
+    }
+    
+    .main_top .panel_content {
+        padding: 32px 16px;
+        width: 92%;
+    }
+    
+    .main_top .panel_content p {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    /* MOBILE COURSE SECTION */
+    
+    .course_list {
+        display: none;
+    }
+    
+    .course_list_mobile {
+        display: block;
+    }
+    
+    .course_list_mobile li {
+        padding: 24px 16px;
+        margin-bottom: 8px;
+        background-color: antiquewhite
+    }
+    
+    
+    
+    /* THESIS CONTENT */
+    
+    
+    
+    
+    
+}
