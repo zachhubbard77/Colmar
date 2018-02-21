@@ -419,8 +419,8 @@ footer a {
     
     /* MOBILE MAIN CONTENT */
     
-    .main_top {
-        //padding-bottom: 0;
+    .main_content .main_top {
+        padding-bottom: 0;
     }
     
     .main_top .main_image {
@@ -465,6 +465,10 @@ footer a {
     
     /* MOBILE COURSE SECTION */
     
+    .courses h3 {
+        padding: 16px 0;
+    }
+    
     .course_list {
         display: none;
     }
@@ -483,15 +487,26 @@ footer a {
         background-color: #59656f;
         margin: 0 16px 8px 16px;
         color: white;
+        
     }
     
     .course_list_mobile li h4 {
         padding-left: 16px;
     }
     
+    .course_list_mobile li:active {
+        color: #ff715b;
+        -webkit-box-shadow: 0px 1px 3px #666666;
+        -moz-box-shadow: 0px 1px 3px #666666;
+        box-shadow: 0px 1px 3px #666666;
+    }
+    
     
     /* MOBILE THESIS CONTENT */
     
+    .thesis h3 {
+        padding: 16px 0;
+    } 
     
     .thesis .main_content {
         padding: 0;
